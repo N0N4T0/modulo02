@@ -1,0 +1,67 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 65%;
+    margin: 30px auto 0;
+}
+
+.cards h2 {
+    margin-top: 20%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.103);
+    border-radius: 15px;
+    cursor: pointer;
+    padding-top: 40px;
+}
+
+.starter:hover  {
+    border: 1px solid #6853c1;
+    transition: 200ms;
+    transform: translateY(-10px);
+}
+
+.launchBase:hover  {
+    border: 1px solid #fd951f;
+    transition: 200ms;
+    transform: translateY(-10px);
+}
+
+.goStack:hover  {
+    border: 1px solid #04d361;
+    transition: 200ms;
+    transform: translateY(-10px);
+}
+
+.starter h2 {
+    color: #6853c1;
+}
+
+.launchBase h2 {
+    color: #fd951f;
+}
+
+.goStack h2 {
+    color: #04d361;
+}
+
+.starter p {
+    margin-top: 45%;
+    font-size: 18px;
+    font-weight: bolder;
+    color: yellow;
+}
+
+.launchBase p, .goStack p {
+    margin-top: 45%;
+    font-size: 18px;
+    font-weight: bolder;
+    color: red;
+}
